@@ -1,0 +1,92 @@
+<div id="kauruka-buttons"></div>
+
+<ul id="kauruka-postlist"><span class="kauruka-loading">Loading...</span></ul>
+
+<style>
+  #kauruka-buttons {
+    margin: 0 0 15px;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center
+  }
+
+  #kauruka-buttons span {
+    background-color: #444;
+    color: #fff;
+    padding: 7px 0;
+    cursor: pointer;
+    margin: 0 5px 5px 0;
+    text-align: center;
+    text-transform: uppercase;
+    width: 35px
+  }
+
+  #kauruka-postlist .kauruka-loading {
+    text-align: center;
+    display: block;
+    margin: 30px 0
+  }
+
+  ul#kauruka-postlist,
+  #kauruka-postlist li {
+    list-style-type: none;
+    padding: 0;
+    margin: 0
+  }
+
+  #kauruka-postlist strong {
+    border-bottom: 2px solid #8775f5;
+    display: block;
+    margin: 25px 0 10px;
+    padding-bottom: 5px;
+    font-size: 24px
+  }
+
+  #kauruka-postlist strong::first-letter {
+    background: #8775f5;
+    padding: 0 8px;
+    color: #fff;
+    border-radius: 4px
+  }
+
+  #kauruka-postlist li {
+    border-bottom: 1px solid rgba(72, 72, 72, 0.25);
+    padding: 5px
+  }
+
+  #kauruka-postlist li a {
+    color: #333;
+    text-decoration: none;
+    transition: .6s all
+  }
+
+  #kauruka-postlist li a:hover {
+    color: #111;
+    transition: .6s all
+  }
+
+  .dark-mode #kauruka-postlist li a {
+    color: #FFFFFF;
+    text-decoration: none;
+    transition: .6s all
+  }
+
+  .dark-mode #kauruka-postlist li a:hover {
+    color: #FFFFFF;
+    transition: .6s all
+  }
+</style>
+
+<script>
+  var blog = 'https://www.random-screenshots-from-manga.my.id';
+
+  var label = 'Series';
+
+  eval(function(p, a, c, k, e, d) { e = function(c) { return (c < a ? "" : e(parseInt(c / a))) + ((c = c % a) > 35 ? String.fromCharCode(c + 29) : c.toString(36)) }; if (!''.replace(/^/, String)) { while (c--) d[e(c)] = k[c] || e(c);
+      k = [function(e) { return d[e] }];
+      e = function() { return '\\w+' };
+      c = 1; }; while (c--)
+      if (k[c]) p = p.replace(new RegExp('\\b' + e(c) + '\\b', 'g'), k[c]); return p; }('s a=["","\\r\\d\\w\\c\\l\\i\\b\\y\\p\\y","\\e\\l\\x\\x\\c\\f\\H","\\e\\k\\i\\j\\b","\\c\\C\\v\\r\\d\\w\\z\\u\\j\\Q\\n\\i\\x\\h\\g\\k\\1k\\f\\e\\b\\l\\1c\\Z\\L\\H\\1j","\\B\\e\\k\\c\\h\\I\\j\\r\\G\\V\\c\\u\\u\\u\\p","\\V\\A","\\b\\g\\1l\\k\\k\\d\\f\\1a\\c\\e\\d","\\B\\y\\e\\k\\c\\h\\A","\\x\\c\\k","\\y\\w\\d\\d\\r\\e\\y\\k\\g\\e\\b\\e\\y","\\Y\\c\\i\\b\\G\\Q\\e\\g\\h\\p\\j\\h\\p\\e\\v\\f\\j\\k\\b\\K\\g\\f\\r\\d\\f\\C\\H\\G\\k\\l\\C\\i\\j\\e\\u\\d\\r\\K\\e\\b\\c\\f\\b\\p\\j\\h\\r\\d\\L\\G","\\K\\x\\c\\L\\p\\f\\d\\e\\l\\i\\b\\e\\G","\\K\\v\\c\\i\\i\\C\\c\\v\\n\\G\\Y","\\d\\h\\b\\f\\H","\\w\\d\\d\\r","\\J\\n\\c\\l\\f\\l\\n\\c\\p\\k\\g\\e\\b\\i\\j\\e\\b","\\1b\\b","\\b\\j\\b\\i\\d","\\i\\d\\h\\z\\b\\u","\\i\\j\\h\\n","\\c\\i\\b\\d\\f\\h\\c\\b\\d","\\f\\d\\i","\\u\\f\\d\\w","\\B\\i\\j\\A\\B\\y\\i\\j\\A","\\B\\c\\A\\B\\y\\c\\A","\\c\\b\\b\\f","\\b\\d\\L\\b","\\c\\k\\k\\d\\h\\r","\\d\\c\\v\\u","\\z\\d\\b","\\J\\n\\c\\l\\f\\l\\n\\c\\p\\k\\g\\e\\b\\i\\j\\e\\b\\I\\i\\j","\\b\\g\\1n\\g\\Z\\d\\f\\1a\\c\\e\\d","\\e\\g\\f\\b","\\g\\k\\d\\h\\X\\d\\c\\f\\v\\u\\1b\\b\\g\\b\\c\\i\\1u\\d\\e\\l\\i\\b\\e","\\f\\d\\x\\g\\1c\\d","\\1w\\n\\c\\l\\f\\l\\n\\c\\p\\i\\g\\c\\r\\j\\h\\z","\\w\\j\\h\\r","\\v\\u\\c\\f\\1v\\b","\\b\\f\\j\\x","\\B\\e\\b\\f\\g\\h\\z\\A","\\B\\y\\e\\b\\f\\g\\h\\z\\A","\\C\\d\\w\\g\\f\\d","\\z\\d\\b\\1s\\X\\1p\\1o","\\Q\\g\\j\\h","\\J\\n\\c\\l\\f\\l\\n\\c\\p\\C\\l\\b\\b\\g\\h\\e","\\k\\g\\k","\\p","\\j\\r","\\w\\j\\f\\e\\b","\\J\\n\\c\\l\\f\\l\\n\\c\\p\\k\\g\\e\\b\\i\\j\\e\\b\\I\\e\\b\\f\\g\\h\\z\\1r\\v\\g\\h\\b\\c\\j\\h\\e\\1i\\1d","\\1d\\1q","\\b\\g\\k","\\g\\w\\w\\e\\d\\b","\\c\\h\\j\\x\\c\\b\\d","\\u\\b\\x\\i\\1t\\I\\C\\g\\r\\H","\\v\\i\\j\\v\\n","\\J\\n\\c\\l\\f\\l\\n\\c\\p\\C\\l\\b\\b\\g\\h\\e\\I\\e\\k\\c\\h"];s N=a[0];N=T?a[1]+T:a[2];s 1f=1h;1m 1g=a[4][a[3]](a[0]),W=1g[a[9]]((m)=>{S`${a[5]}${m}${a[6]}${m[a[7]]()}${a[8]}`});E O(m,o){s q=1U+a[10]+N+a[11]+m+a[12]+o+a[13];$[a[2c]](q,E(q){s t,F=q[a[15]][a[14]],M=$(a[16]);$[a[29]](F,E(){1Z(s m=D[a[18]][a[17]],o=a[0],q=0;q<D[a[20]][a[19]];q++){2b(a[21]==D[a[20]][q][a[22]]){o=D[a[20]][q][a[23]];1D}};s t=$(a[24]),F=$(a[25]);F[a[26]](a[23],o),F[a[27]](m),t[a[28]](F),M[a[28]](t)});s P=$(a[1e])[a[1A]]();P[a[1z]](E(m,o){s q=$(m)[a[27]]()[a[R]](),t=$(o)[a[27]]()[a[R]]();S q<t?-1:q>t?1:0});s U=$(a[16]);$[a[29]](P,E(m,o){U[a[28]](o)}),m+o<=q[a[15]][a[1L]][a[17]]?O(m+o,o):(M[a[1T]](a[1N])[a[1M]](),t=a[0],$(a[1e])[a[29]](E(){s m=$(D)[a[27]]()[a[1J]]()[a[1I]](0)[a[R]]();m!=t&&(t=m,$(D)[a[1B]](a[1G]+t[a[7]]()+a[1H]))}))})}$(a[1K])[a[28]](W[a[1F]](a[0])),$(a[1x])[a[1y]](E(){s m=$(D)[a[26]](a[1E])[a[3]](a[1C])[a[1Y]](),o=$(a[1X]+m[a[7]]()+a[2a])[a[1W]]();$(a[1Q])[a[1R]]({1O:o[a[1P]]()[a[1V]]},1S)}),O(1,1f)', 62, 137, '||||||||||_0xcc17|x74|x61|x65|x73|x72|x6F|x6E|x6C|x69|x70|x75|_0x3898x5|x6B|_0x3898x7|x2D|_0x3898x8|x64|var|_0x3898x9|x68|x63|x66|x6D|x2F|x67|x3E|x3C|x62|this|function|_0x3898xa|x3D|x79|x20|x23|x26|x78|_0x3898xb|labelnya|loadPosts|_0x3898xc|x6A|32|return|label|_0x3898xd|x22|buttonLetters|x53|x3F|x77|||||||||||x43|x24|x76|x27|31|max|alphabet|150|x28|x7A|x71|x55|const|x4C|x4E|x4F|x29|x3A|x4A|x2C|x52|x41|x2E|57|56|33|30|42|47|break|48|44|40|41|38|39|45|34|35|36|scrollTop|53|55|54|500|37|blog|52|49|50|46|for|||||||||||51|if|43'.split('|'), 0, {}))
+</script>
